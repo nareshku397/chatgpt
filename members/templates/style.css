@@ -1,0 +1,365 @@
+
+
+header
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 25px;	
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{
+    height: 390px;
+    width: 270px;
+    background: transparent;
+    overflow-y: scroll;
+    /*margin-bottom: 25px;*/
+
+}
+
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+/*
+ *  STYLE 3
+ */
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'arial';
+}
+.container{
+	height: 650px;
+	width: 100%;
+	background: blueviolet;
+}
+.content{
+	height: 650px;
+	width: 100%;
+	background: gray;
+	display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.row_1{
+	height: 650px;
+	width: 1349px;
+	background: transparent;
+	float: left;
+}
+.col_1{
+	height: 650px;
+	width: 270px;
+	background: #202123;
+	float: left;
+	/*position: relative;*/
+	/*overflow: overlay;*/
+}
+.col_2{
+	height: 650px;
+	width: 1079px;
+	background-color: #353740;
+	float: left;
+}
+.topchat{
+	height: 45px;
+	width: 240px;
+	background: transparent;
+	float: left;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-top: 10px;
+	color: white;
+}
+.topchat h5{
+    padding-left: 40px;
+	padding-top: 13px;
+}
+.topchat i{
+	padding-top: 13px;
+	padding-left: 10px;
+	float: left;
+}
+.new_chat{
+	height: 45px;
+	width: 240px;
+	background: transparent;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+
+}
+.searchbar{
+	height: 50px;
+	width: 700px;
+	background: rgba(68,70,84,var(--tw-bg-opacity));
+	float: left;
+	margin-left: 189px;
+	margin-top: 40px;
+	border:none;
+	border-radius: 5px;
+	box-shadow: 0px 0px  10px 1px black;
+	position: relative;
+}
+.new_chat h5{
+	padding-top: 13px;
+	padding-left: 40px;
+}
+.searchbar i{
+	position: absolute;
+	color: gray;
+	right: 20px;
+	font-size: 20px;
+	top: 15px;
+}
+.searchbar i:hover{
+	background: #202123;
+}
+.main{
+	height: 500px;
+	width: 1079px;
+	background-color: #353740;
+	margin-top: 50px;
+	float: left;
+}
+.material{
+	height: 500px;
+	width: 700px;
+	background-color: #444654;
+	margin-left: 189px;
+	float: left;
+}
+.header{
+	height: 50px;
+	width: 700px;
+	background: #444654;
+	float: left;
+	border-radius: 7px 7px 0px 0px;
+}
+.data{
+	height: 200px;
+	width: 600px;
+	margin-left: 50px;
+	background: transparent;
+	float: left;
+	margin-top: 10px;
+	border-radius: 7px 7px 0px 0px;
+	background: black;
+}
+.head{
+	height: 40px;
+	width: 600px;
+	background: #353740;
+	border-radius: 7px 7px 0px 0px;
+}
+.head i{
+	float: right;
+	color: gray;
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 10px;
+}
+.setting{
+	height: 275px;
+	width: 240px;
+	margin-left: 15px;
+	background: transparent;
+	border-top: 1px solid gray;
+}
+.defination{
+	height: 30px;
+	width: 240px;
+	margin-top: 30px;
+	margin-left: 20px;
+	background: transparent;
+	color: white;
+
+}
+.icons{
+  height: 50px;
+  width: 240px;
+  margin-top: 15px;
+  margin-left: 8px;
+  font-size: 25px;
+}
+.icons i{
+	padding-left: 10px;
+}
+.one{
+	height: 45px;
+	width: 240px;
+	background: transparent;
+	float: left;
+	margin-top: 7px;
+	color: white;
+}
+.one:hover{
+	border: 1px solid gray;
+	border-radius: 5px;
+	background:  #353740;
+
+}
+.one h5{
+  padding-left: 12px;
+  padding-top: 14px;
+  float: left;
+
+}
+.one i{
+	padding-top: 14px;
+	padding-left: 20px;
+	float: left;
+}
+
+
+
+
+/*
+Signup page css section
+and
+login section
+*/
+#signup_container{
+	height: 650px;
+	width: 100%;
+	background: white;
+}
+.sign{
+	height: 600px;
+	width: 100%;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+.res_1{
+  height: 600px;
+  width: 1349px;
+  background: transparent;
+}
+.form{
+	height: 580px;
+	width: 28%;
+	background: transparent;
+	float: left;
+	margin-left: 36%;
+}
+.heading{
+	height: 150px;
+	width: 100%;
+	background: white;
+	float: left;
+	text-align: center;
+	margin-top: 70px;
+}
+.login{
+	height: 50px;
+	width: 100%;
+	background: white;
+	float: left;
+	text-align: center;
+	margin-top: 85px;
+
+}
+.input1{
+  height: 140px;
+  width: 100%;
+  background: white;
+  float: left;
+  margin-top: 30px;
+}
+#input{
+	height: 60px;
+    font-size: 20px;
+}
+#button{
+	height: 60px;
+	width: 100%;
+	font-size: 20px;
+}
+.input2{
+  height: 140px;
+  width: 100%;
+  background: transparent;
+  float: left;
+  text-align: center;
+
+}
+.input2 p{
+	padding-top: 15px;
+}
+.google{
+  height: 60px;
+  width: 100%;
+  background: white;
+  float: left;
+  margin-top: 25px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+.google:hover{
+	background-color: lightgray;
+}
+.google img{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.google h3{
+	font-size: 20px;
+	color: black;
+	float: left;
+	padding-bottom: 10px;
+	margin-left: 15px;
+}
